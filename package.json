@@ -2,6 +2,7 @@
 	"name": "2-5-dashboard",
 	"displayName": "2^5 dashboard",
 	"description": "",
+	"publisher": "cuhland",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.38.0"
@@ -9,6 +10,13 @@
 	"categories": [
 		"Other"
 	],
+	"extensionPack": [
+		"publisher.extensionName"
+	],
+	"repository": {
+        "type": "git", 
+		"url": "https://github.com/cuhland/2-5-dashboard.git"
+	},
 	"activationEvents": [
 		"onCommand:extension.2-5-dashboard"
 	],
@@ -38,5 +46,8 @@
 		"typescript": "^3.3.1",
 		"tslint": "^5.12.1",
 		"vscode-test": "^1.2.0"
+	},
+	"dependencies": {
+		"vsce": "^1.66.0"
 	}
 }
